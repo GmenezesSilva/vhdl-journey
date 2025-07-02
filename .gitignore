@@ -1,0 +1,54 @@
+# Quartus Prime project files
+*.bak
+*.rpt
+*.chg
+*.smsg
+*.summary
+*.qws
+*.qdf
+*.qsf
+*.qpf
+*.sld
+*.sld_design_entry.sci
+*.done
+*.sof
+*.pof
+*.jic
+*.pin
+*.pininfo
+*.map.*
+*.fit.*
+*.sta.*
+*.asm.*
+*.ddb
+*.cdf
+*.ekp
+*.jdi
+*.sdc
+*.svd
+*.svd~
+
+# Simulation outputs (ModelSim / Questa)
+*.vcd
+*.wlf
+*.log
+*.vhw
+transcript
+vsim.wlf
+*.vstf
+*.ini
+
+# OS/Editor-specific
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*.idea/
+*.vscode/
+
+# Build outputs (optional - se usar make/scripting)
+build/
+output/
+sim/
+db/
+incremental_db/
