@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="297mm"
+   height="210mm"
+   viewBox="0 0 297 210"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4.2 (f4327f4, 2025-05-13)"
+   sodipodi:docname="Water_Heater_State_Diagram.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:connector-spacing="100"
+     inkscape:zoom="3.0324635"
+     inkscape:cx="470.90426"
+     inkscape:cy="227.70266"
+     inkscape:window-width="2400"
+     inkscape:window-height="1321"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1">
+    <marker
+       style="overflow:visible"
+       id="Triangle"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Triangle arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.5)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path135" />
+    </marker>
+  </defs>
+  <g
+     inkscape:label="Camada 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g3"
+       transform="translate(-4.8122314,-6.1078322)">
+      <circle
+         style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+         id="path1"
+         cx="120.98443"
+         cy="49.479607"
+         r="8.2671671" />
+      <text
+         xml:space="preserve"
+         style="font-size:4.23333px;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+         x="120.90071"
+         y="50.994759"
+         id="text1"><tspan
+           sodipodi:role="line"
+           id="tspan1"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke-width:0.264583"
+           x="120.90071"
+           y="50.994759">IDLE</tspan></text>
+    </g>
+    <g
+       id="g4"
+       transform="translate(5.3057936,0.4935622)">
+      <circle
+         style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+         id="path1-8"
+         cx="139.70248"
+         cy="66.858543"
+         r="8.2671671" />
+      <text
+         xml:space="preserve"
+         style="font-size:4.23333px;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+         x="139.54849"
+         y="68.348892"
+         id="text1-2"><tspan
+           sodipodi:role="line"
+           id="tspan1-4"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke-width:0.264583"
+           x="139.54849"
+           y="68.348892">Heat</tspan></text>
+    </g>
+    <g
+       id="g5"
+       transform="translate(-11.009754,-9.291936)">
+      <circle
+         style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+         id="path1-8-1"
+         cx="123.7578"
+         cy="92.536957"
+         r="8.2671671" />
+      <text
+         xml:space="preserve"
+         style="font-size:4.23333px;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.264583;stroke-opacity:1"
+         x="123.61"
+         y="93.606659"
+         id="text1-2-1"><tspan
+           sodipodi:role="line"
+           id="tspan1-4-5"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke-width:0.264583"
+           x="123.61"
+           y="93.606659">Ready</tspan></text>
+    </g>
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.265;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Triangle)"
+       d="m 122.52848,48.657714 16.12351,13.408452"
+       id="path5"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-end="#g4"
+       inkscape:connection-start="#g3" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Triangle)"
+       d="m 137.59233,71.00555 -17.42834,8.586026"
+       id="path8"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-end="#g5"
+       inkscape:connection-start="#g4" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:url(#Triangle)"
+       d="m 115.46485,51.608613 -2.00946,23.399569"
+       id="path9"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-end="#g5"
+       inkscape:connection-start="#g3" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.152308px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 141.31688,45.93984 5.33255,13.434682"
+       id="path11"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0" />
+    <path
+       style="display:inline;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.152308px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Triangle)"
+       d="M 141.69448,46.155405 124.39055,44.268123"
+       id="path11-4"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="30"
+       inkscape:connection-end="#g3" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.83286px;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.152978;stroke-dasharray:none;stroke-opacity:1"
+       x="149.28133"
+       y="42.111923"
+       id="text11-1-8-3"><tspan
+         sodipodi:role="line"
+         style="font-size:1.83286px;stroke-width:0.152979"
+         x="149.28133"
+         y="42.111923"
+         id="tspan21">Water Low Level Indicator = 1</tspan><tspan
+         sodipodi:role="line"
+         style="font-size:1.83286px;stroke-width:0.152979"
+         x="149.28133"
+         y="44.403"
+         id="tspan18">Heater = 0</tspan><tspan
+         sodipodi:role="line"
+         style="font-size:1.83286px;stroke-width:0.152979"
+         x="149.28133"
+         y="46.694073"
+         id="tspan19">Error LED = 1</tspan><tspan
+         sodipodi:role="line"
+         style="font-size:1.83286px;stroke-width:0.152979"
+         x="149.28133"
+         y="48.985149"
+         id="tspan20">Ready LED = 0</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.83286px;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.152978;stroke-dasharray:none;stroke-opacity:1"
+       x="107.08622"
+       y="63.652523"
+       id="text11-1-8-1"><tspan
+         sodipodi:role="line"
+         id="tspan11-6-9-3"
+         style="font-size:1.83286px;stroke-width:0.152979"
+         x="107.08622"
+         y="63.652523">Heater = 0</tspan><tspan
+         sodipodi:role="line"
+         style="font-size:1.83286px;stroke-width:0.152979"
+         x="107.08622"
+         y="65.943604"
+         id="tspan12-8-2-8">Ready LED = 1</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.83286px;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.152978;stroke-dasharray:none;stroke-opacity:1"
+       x="134.71791"
+       y="49.19619"
+       id="text11-1-8-1-5"><tspan
+         sodipodi:role="line"
+         id="tspan11-6-9-3-0"
+         style="font-size:1.83286px;stroke-width:0.152979"
+         x="134.71791"
+         y="49.19619">Heater = 1</tspan><tspan
+         sodipodi:role="line"
+         style="font-size:1.83286px;stroke-width:0.152979"
+         x="134.71791"
+         y="51.487267"
+         id="tspan12-8-2-8-2">Ready LED = 0</tspan><tspan
+         sodipodi:role="line"
+         style="font-size:1.83286px;stroke-width:0.152979"
+         x="134.71791"
+         y="53.778339"
+         id="tspan22">Error LED = 0</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.83286px;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.152978;stroke-dasharray:none;stroke-opacity:1"
+       x="133.80066"
+       y="77.422195"
+       id="text11-1-8-7"><tspan
+         sodipodi:role="line"
+         id="tspan11-6-9-9"
+         style="font-size:1.83286px;stroke-width:0.152979"
+         x="133.80066"
+         y="77.422195">Thermostat = 0</tspan><tspan
+         sodipodi:role="line"
+         style="font-size:1.83286px;stroke-width:0.152979"
+         x="133.80066"
+         y="79.713272"
+         id="tspan12-8-2-3">Ready LED = 1</tspan></text>
+  </g>
+</svg>
