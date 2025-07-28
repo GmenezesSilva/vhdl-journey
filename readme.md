@@ -20,7 +20,7 @@ Alguns dos projetos aqui presentes foram propostos no curso.
 
 Cada pasta de projeto contém:
 
-- `src/` – Arquivos-fonte em VHDL
+- `code` - Pasta com os códigos desenvolvidos
 - `README.md` – Detalhes e instruções específicas do projeto
 
 > Arquivos de simulação e projetos do Quartus podem ser adicionados ou organizados conforme a complexidade do projeto exigir.
