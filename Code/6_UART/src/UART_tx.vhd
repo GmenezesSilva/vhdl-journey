@@ -57,7 +57,7 @@ architecture rtl of UART_tx is
     end component;
 
     signal BaudClk              : std_logic;
-    signal TxPacket             : std_logic_vector(DATA_WIDTH+1 downto 0);
+    signal TxPacket             : std_logic_vector(RS232_DATA_BITS+1 downto 0);
     
 
 begin
@@ -87,9 +87,9 @@ begin
     UART_BIT_TIMING_INST: BaudClkGenerator
         generic map
         (
-            NUMBER_OF_CLOCKS    : integer => RS232_DATA_BITS + 2,
-            SYS_CLK_FREQ        : integer => SYS_CLK_FREQ,
-            BAUD_RATE           : integer => BAUD_RATE
+            NUMBER_OF_CLOCKS  => RS232_DATA_BITS + 2,
+            SYS_CLK_FREQ      => SYS_CLK_FREQ,
+            BAUD_RATE         => BAUD_RATE
                 
         )
         port map
