@@ -3,10 +3,10 @@ use ieee.std_logic_1164.all;
 
 entity Synchronizer is
     generic (
-        IDLE_STATE : std_logic := '0'
+        IDLE_STATE : std_logic
     );
     port (
-        clk     : in  std_logic;
+        Clk     : in  std_logic;
         Rst     : in  std_logic;
 
         Async   : in  std_logic;
@@ -19,11 +19,11 @@ architecture rtl of Synchronizer is
 begin
     Sync <= SR(1);
 
-    SynchronizationProcess : process (clk, Rst)
+    SynchronizationProcess : process (Clk, Rst)
     begin
         if Rst = '1' then
             SR <= (others => IDLE_STATE);
-        elsif rising_edge(clk) then
+        elsif rising_edge(Clk) then
             SR(0) <= Async;
             SR(1) <= SR(0);
         end if;
